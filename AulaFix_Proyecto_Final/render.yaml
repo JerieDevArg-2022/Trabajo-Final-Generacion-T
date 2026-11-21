@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: aulafix
+    runtime: python
+    plan: free
+    buildCommand: echo "No dependencies required"
+    startCommand: python backend/server.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DB_PATH
+        value: /tmp/aulafix.sqlite3
+      - key: ADMIN_PASSWORD
+        sync: false

@@ -1,0 +1,36 @@
+test_assign (test_core.TestAulaFix.test_assign) ... ok
+test_assign_nontech (test_core.TestAulaFix.test_assign_nontech) ... ok
+test_bad_description (test_core.TestAulaFix.test_bad_description) ... ok
+test_bad_password (test_core.TestAulaFix.test_bad_password) ... ok
+test_bad_priority (test_core.TestAulaFix.test_bad_priority) ... ok
+test_consume (test_core.TestAulaFix.test_consume) ... ok
+test_create (test_core.TestAulaFix.test_create) ... ok
+test_due_critical_before_low (test_core.TestAulaFix.test_due_critical_before_low) ... ok
+test_full_cycle (test_core.TestAulaFix.test_full_cycle) ... ok
+test_history (test_core.TestAulaFix.test_history) ... ok
+test_invalid_transition (test_core.TestAulaFix.test_invalid_transition) ... ok
+test_login (test_core.TestAulaFix.test_login) ... ok
+test_need_resolution (test_core.TestAulaFix.test_need_resolution) ... ok
+test_no_negative_stock (test_core.TestAulaFix.test_no_negative_stock) ... ok
+test_no_start_unassigned (test_core.TestAulaFix.test_no_start_unassigned) ... ok
+test_no_zero_quantity (test_core.TestAulaFix.test_no_zero_quantity) ... ok
+test_other_tech_forbidden (test_core.TestAulaFix.test_other_tech_forbidden) ... ok
+test_part_only_in_progress (test_core.TestAulaFix.test_part_only_in_progress) ... ok
+test_privacy (test_core.TestAulaFix.test_privacy) ... ok
+test_reopen (test_core.TestAulaFix.test_reopen) ... ok
+test_seed (test_core.TestAulaFix.test_seed) ... ok
+test_start (test_core.TestAulaFix.test_start) ... ok
+test_stock_alert (test_core.TestAulaFix.test_stock_alert) ... ok
+test_student_cancel (test_core.TestAulaFix.test_student_cancel) ... ok
+test_student_cant_cancel_other (test_core.TestAulaFix.test_student_cant_cancel_other) ... ok
+test_student_no_assign (test_core.TestAulaFix.test_student_no_assign) ... ok
+test_student_only_own (test_core.TestAulaFix.test_student_only_own) ... ok
+test_tech_cannot_close (test_core.TestAulaFix.test_tech_cannot_close) ... ok
+test_tech_cannot_create (test_core.TestAulaFix.test_tech_cannot_create) ... ok
+test_tech_capacity (test_core.TestAulaFix.test_tech_capacity) ... ok
+test_wrong_tech_consumption (test_core.TestAulaFix.test_wrong_tech_consumption) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.019s
+
+OK
